@@ -1,0 +1,14 @@
+{
+        "builds": [
+          {
+            "src": "HighlightsGrabber/wsgi.py",
+            "use": "@vercel/python"
+          }
+        ],
+        "routes": [
+          {
+            "src": "/(.*)",
+            "dest": "HighlightsGrabber/wsgi.py"
+          }
+        ]
+    }
