@@ -10,14 +10,8 @@ def VideosGrabber(url):
     imageCounter = 0
 
     with open(f"{dir_path}/templates/Videos.txt", 'w+') as file:
-        file.write("""<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+        file.write("""
+    <html>
     <body>""")
         for item in Data.json()['data']['reels_media'][0]['items']:
             if item['is_video'] == True:
