@@ -74,7 +74,6 @@ progress==1.5
 protobuf==3.14.0
 pyarmor==6.6.1
 pycparser==2.20
-pycurl==7.43.0.5
 pyee==8.1.0
 pyfiglet==0.8.post1
 pyinstaller==4.2
