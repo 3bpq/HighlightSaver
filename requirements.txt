@@ -93,8 +93,6 @@ python-nmap==0.6.1
 python-slugify==4.0.1
 python-twitter==3.5
 pythonnet==2.5.2
-PyTikTokAPI==0.0.5
-pytube @ git+https://github.com/nficano/pytube@706e53c9b5c3f5f2ba3067c14a91b11003d55cf7
 pytz==2022.2.1
 pywin32-ctypes==0.2.0
 pyzbar==0.1.8
